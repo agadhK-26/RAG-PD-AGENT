@@ -333,10 +333,4 @@ question answering tasks.
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome. Please open an issue or submit a pull request with proposed changes.
-
-## 📄 License
-
-This project is licensed under the MIT License.

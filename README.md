@@ -69,30 +69,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** system that enables accur
 
 ---
 
-## 📂 Project Structure
 
-```
-pdf-rag/
-│
-├── data/
-│   └── pdfs/                     # Source PDF documents
-│
-├── chroma_db/                    # Persistent vector store (auto-generated)
-│
-├── src/
-│   ├── ingestion.py               # PDF loading and text extraction
-│   ├── chunking.py                # Text splitting logic
-│   ├── embedding_manager.py       # Embedding generation & management
-│   ├── vector_store.py            # ChromaDB storage & retrieval
-│   ├── retriever.py                # Semantic search / context fetching
-│   ├── llm_chain.py                # Groq LLM prompt & response generation
-│   └── pipeline.py                 # End-to-end orchestration
-│
-├── app.py                         # Entry point / CLI or UI interface
-├── requirements.txt
-├── .env.example
-└── README.md
-```
 
 ---
 
